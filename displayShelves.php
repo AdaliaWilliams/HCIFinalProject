@@ -4,39 +4,28 @@ include "top.php";
 ?>
 <main class="displayShelves">
     <section class="shelf1">
-        <h2>My Self</h2>
-        <p><a href="myShelf.php" </p>
+        <h2><a href="myShelf.php">My Shelf</a></h2>
+
     </section>
 
     <section class="shelf2">
-        <h2>Roommate Self</h2>
-        <p><a href="roomMateShelf.php" </p>
+        <h2><a href="roomMateShelf.php">Roommate Self</a></h2>
+
     </section>
 
     <section class="shelf3">
-        <h2>Shared Self</h2>
-        <p><a href="sharedShelf.php" </p>
+        <h2><a href="sharedShelf.php">Shared Self</a> </h2>
+
     </section>
-</main>
-
+<section>
 <nav>
-    <a class="<?php
-    if (PATH_PARTS['filename'] == "displayShelves") {
-        print 'activePage';
-    }
-    ?>" href="displayShelves.php">Shelves</a>
+    <a href="displayShelves.php"><img src="images/shelves_button.png" </a>
 
-    <a class="<?php
-    if (PATH_PARTS['filename'] == "addShelf") {
-        print 'activePage';
-    }
-    ?>" href="addShelf.php">Add</a>
+    <a href="addShelf.php"><img src="images/add_button.jpg"></a>
 
-    <a class="<?php
-    if (PATH_PARTS['filename'] == "profile") {
-        print 'activePage';
-    }
-    ?>" href="profile.php">Profile</a>
+    <a href="profile.php"><img src="images/profile_pic.png"></a>
 </nav>
+</section>
+</main>
 <!-- closing of html is in nav.php or must be included at the bottom of code-->
 </html>

@@ -1,15 +1,7 @@
 <!-- nav for when you cannot add something -->
 <nav>
-    <a class="<?php
-    if (PATH_PARTS['filename'] == "displayShelves") {
-        print 'activePage';
-    }
-    ?>" href="displayShelves.php">Shelves</a>
+    <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
 
-    <a class="<?php
-    if (PATH_PARTS['filename'] == "profile") {
-        print 'activePage';
-    }
-    ?>" href="profile.php">Profile</a>
+    <a href="profile.php"><img src="images/profile_pic.png"></a>
 </nav>
 </html>

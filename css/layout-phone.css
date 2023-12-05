@@ -1,0 +1,27 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: black;
+    --main-bg-color: whitesmoke;
+}
+
+/* nav styling */
+
+nav{
+    padding: .5%;
+    border-radius: 5px;
+    background-color: cadetblue;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    max-width: 70%;
+}
+
+nav img {
+    width: 5%;
+    margin: auto;
+}
