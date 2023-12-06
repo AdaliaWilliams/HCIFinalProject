@@ -11,17 +11,109 @@
 /* nav styling */
 
 nav{
-    padding: .5%;
-    border-radius: 5px;
     background-color: cadetblue;
-    justify-content: space-between;
+    position: fixed;
     width: 100%;
-    margin: auto;
-    top: 0;
+    overflow: hidden;
+    bottom: 0;
     max-width: 70%;
+    grid-area: nav;
 }
+
+
 
 nav img {
     width: 5%;
     margin: auto;
+}
+
+.displayShelves{
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'shelf1 shelf2'
+    'shelf3 auto'
+    'nav nav';
+}
+
+
+
+.shelf1{
+    grid-area: shelf1;
+    width: 90%;
+    margin: auto;
+}
+
+.shelf2{
+    grid-area: shelf2;
+    width: 90%;
+    margin: auto;
+}
+
+.shelf3{
+    grid-area: shelf3;
+    width: 90%;
+    margin: auto;
+}
+
+
+header h1{
+    padding: 5px;
+    grid-area: header;
+    font-size: 35px;
+    max-height: 30em;
+    color: darkolivegreen;
+    text-align: center;
+}
+/*category styling*/
+.categories{
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    'header'
+    'produce'
+    'dairy'
+    'frozen'
+    'protein'
+    'shelf-safe'
+    'nav';
+}
+
+.produce {
+    grid-area: produce;
+    margin: auto;
+}
+
+.dairy {
+    grid-area: dairy;
+    margin: auto;
+}
+
+.frozen {
+    grid-area: frozen;
+    margin: auto;
+}
+
+.protein {
+    grid-area: dairy;
+    margin: auto;
+}
+
+.shelf-safe {
+    grid-area: dairy;
+    margin: auto;
+}
+
+
+/* table styling  */
+td {
+    text-transform: uppercase;
+}
+
+.del {
+    background-color: red;
+}
+
+.soon {
+    background-color: rgba(255, 0, 0, .5);
 }
