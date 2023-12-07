@@ -4,11 +4,15 @@ include 'top.php';
 ?>
 <main>
     <section>
-    <h3><a href="profile.php">back</a></h3>
-    <h1>Allergies</h1>
+        <h3><a href="profile.php">back</a></h3>
+        <h1>Allergies</h1>
     </section>
     <section>
-        //display allergies
+        <table>
+            <tr>
+                <td>Shellfish</td>
+            </tr>
+        </table>
         <h2><a href="addAllergies.php"><img src="images/profile_pic.png"></a></h2>
     </section>
     <section>
