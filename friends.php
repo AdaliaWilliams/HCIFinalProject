@@ -5,7 +5,12 @@ include 'top.php';
 <main>
     //display friends 
     <section>
-        
+        <table>
+            <tr>
+                <td>@friend1</td>
+                <td class="del">delete</td>
+            </tr>
+        </table>
     </section>
     <section>
         <form>
