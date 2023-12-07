@@ -1,5 +1,6 @@
 <?php
     //webpage for displaying help manual
+    include 'top.php';
 ?>
 <main>
     <section>
@@ -28,7 +29,13 @@
         <button>back</button>
         <p>Click this to go to the last page</p>
     </section>
+    <section>
+        <form>
+            <nav>
+                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
+                <a href="profile.php"><img src="images/profile_pic.png"></a>
+            </nav>
+        </form>
+    </section>
 </main>
-<?php
-include 'nav.php';
-?>
+</html>

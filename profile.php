@@ -1,5 +1,6 @@
 <?php
 //webpage for displaying the users profile
+include 'top.php';
 ?>
 <main>
     <section>
@@ -8,33 +9,48 @@
         </figure>
     </section>
     <section>
-        <form method="post" action="#">
-            <div class="form">
-                <label>Name</label>
-                <input type="text" class="form" name="fname" placeholder="Enter your Full Name" value="<?php echo $row['full_name']; ?>" required />
-            </div>
+        <form>
+            <fieldset>
+                <p>
+                    <label>Name</label>
+                    <input type="text">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <input type="submit">
+                </p>
+            </fieldset>
+        </form>
     </section>
     <section>
         //allergies
-        <a href="allergies.php"><button>Allergies</button></a>
+        <h2><a href="allergies.php">Allergies</a></h2>
     </section>
     <section>
         //stats
-        <a href="foodWasted.php"><button>Food Wasted</button></a>
+        <h2><a href="foodWasted.php">Food Wasted</a></h2>
     </section>
     <section>
         //change password
-        <a href="changePassword.php"><button>Change Password</button></a>
+        <h2><a href="changePassword.php">Change Password</a></h2>
     </section>
     <section>
         //help
-        <a href="help.php"><button>Help</button></a>
+        <h2><a href="help.php">Help</a></h2>
     </section>
     <section>
         //friends
-        <a href="friends.php"><button>Friends</button></a>
+        <h2><a href="friends.php">Friends</a></h2>
+    </section>
+    <section>
+        <form>
+            <nav>
+                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
+                <a href="profile.php"><img src="images/profile_pic.png"></a>
+            </nav>
+        </form>
     </section>
 </main>
-<?php
-include 'nav.php';
-?>
+</html>
+

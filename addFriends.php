@@ -1,11 +1,21 @@
 <?php
-//webpage for displaying the user's friends
-include 'top.php';
+//webpage for adding the user's friends
 ?>
 <main>
-    //display friends 
     <section>
-        
+        <form>
+            <fieldset>
+                <p>
+                    <label>Username:<label>
+                    <input type="text">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <input type="submit">
+                </p>
+            </fieldset>
+        </form>
     </section>
     <section>
         <form>

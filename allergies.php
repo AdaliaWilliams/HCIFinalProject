@@ -1,15 +1,23 @@
 <?php
 //webpage for displaying the allergies of user
+include 'top.php';
 ?>
 <main>
     <section>
-    <a href="profile.php"><button>back</button></a>
+    <h3><a href="profile.php">back</a></h3>
     <h1>Allergies</h1>
     </section>
     <section>
-        //find a way to add allergies
+        //display allergies
+        <h2><a href="addAllergies.php"><img src="images/profile_pic.png"></a></h2>
+    </section>
+    <section>
+        <form>
+            <nav>
+                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
+                <a href="profile.php"><img src="images/profile_pic.png"></a>
+            </nav>
+        </form>
     </section>
 </main>
-<?php
-include 'nav.php';
-?>
+</html>

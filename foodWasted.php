@@ -1,12 +1,15 @@
 <?php
 //webpage for displaying the stats of food wasted
+include 'top.php';
 ?>
 <main>
     <section>
-    <a href="profile.php"><button>back</button></a>
+    <h3><a href="profile.php">back</a></h3>
     <h1>Food Wasted</h1>
     </section>
     <section>
+        //Fix this parent
+        //Make the food show up in the table if it expires
         <table>
             <tr>
                 <th>Food Item</th>
@@ -24,9 +27,15 @@
                 <td>Potato</td>
                 <td>11/11/23</td>
             </tr>
-</table>
+        </table>
+    </section>
+    <section>
+        <form>
+            <nav>
+                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
+                <a href="profile.php"><img src="images/profile_pic.png"></a>
+            </nav>
+        </form>
     </section>
 </main>
-<?php
-include 'nav.php';
-?>
+</html>
