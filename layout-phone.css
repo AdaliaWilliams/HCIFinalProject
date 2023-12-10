@@ -1,0 +1,301 @@
+/*Mobile Layout*/
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: black;
+    --main-bg-color: whitesmoke;
+}
+
+body{
+    margin-bottom: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+/*back button styling*/
+.back {
+    background-color: lightgoldenrodyellow;
+    margin-left: 20px;
+    width: 10%;
+}
+
+/* nav styling */
+
+nav{
+    background-color: cadetblue;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    margin-left: 50px;
+    margin-right: 10px;
+    max-width: 70%;
+    grid-area: nav;
+    text-align: center;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: darkgreen;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav img {
+    width: 25%;
+    margin: auto;
+}
+
+.displayShelves{
+    display: grid;
+    grid-template-areas:
+    'header '
+    'shelf1 '
+    'shelf2 '
+    'shelf3 '
+    'nav ';
+}
+
+img{
+    max-width: 100%;
+    text-align: center;
+    padding: 1em;
+    transform:scale(1.25,1.25);
+}
+
+.shelf1{
+    padding: 10px;
+    background-color: lightblue;
+    grid-area: shelf1;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.shelf2{
+    padding: 10px;
+    background-color: lightblue;
+    grid-area: shelf2;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.shelf3{
+    padding: 10px;
+    background-color: lightblue;
+    grid-area: shelf3;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+header h1{
+    padding: 5px;
+    grid-area: header;
+    font-size: 35px;
+    max-height: 30em;
+    color: darkolivegreen;
+    text-align: center;
+}
+/*category styling*/
+.categories{
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    'header'
+    'produce'
+    'dairy'
+    'frozen'
+    'protein'
+    'shelf-safe'
+    'nav';
+}
+
+.produce {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: produce;
+    margin: 10px;
+}
+
+.dairy {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: dairy;
+    margin: 10px;
+}
+
+.frozen {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: frozen;
+    margin: 10px;
+}
+
+.protein {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: protein;
+    margin: 10px;
+}
+
+.shelf-safe {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 5px;
+    border-radius: 5px;
+    grid-area: shelf-safe;
+    margin: 10px;
+}
+
+figcaption {
+    padding: 10px;
+    background-color: lightblue;
+    width: 80%;
+    text-align: center;
+    caption-side: bottom;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: username;
+    margin: 10px;
+}
+
+.allergies {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: allergies;
+    margin: 10px;
+}
+
+.foodwasted {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: foodwasted;
+    margin: 10px;
+}
+
+.changepassword {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: changepassword;
+    margin: 10px;
+}
+
+.help {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: help;
+    margin: 10px;
+}
+
+.friends {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: friends;
+    margin: 10px;
+}
+
+/* category styling */
+
+a:link {
+    text-align: center;
+    color: darkolivegreen;
+}
+
+a:visited{
+    text-align: center;
+    color: darkslategray;
+}
+.my-dairy, .my-frozen, .my-produce, .my-protein, .my-shelf-safe {
+    display: grid;
+    margin-top: 20px;
+    grid-template-areas:
+    "my-header my-header"
+    "item date"
+    "my-table my-table";
+}
+
+.my-header{
+    grid-area: my-header;
+    margin: auto;
+}
+
+.item{
+    grid-area: item;
+    margin: auto;
+}
+
+.date{
+    grid-area: date;
+    margin: auto;
+}
+
+table{
+    max-width: 80%;
+    grid-area: my-table;
+    margin: auto;
+}
+
+/* table styling  */
+td {
+    text-transform: uppercase;
+}
+
+.del {
+    background-color: red;
+}
+
+.soon {
+    background-color: rgba(255, 0, 0, .5);
+}

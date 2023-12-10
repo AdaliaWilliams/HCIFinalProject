@@ -4,7 +4,7 @@
 ?>
 <main>
     <section>
-    <a href="profile.php"><button>back</button></a>
+        <p class="back"><a href="profile.php">BACK</a></p>
     <h1>Help</h1>
     </section>
     <section>
@@ -26,7 +26,7 @@
         <p>Click this in shelves to add a shelf, categories to add a category, items to add an item, or freinds to add a friend.</p>
     </section>
     <section>
-        <button>back</button>
+        <p class="back"><a href="help.php">BACK</a></p>
         <p>Click this to go to the last page</p>
     </section>
     <section>

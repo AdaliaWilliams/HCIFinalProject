@@ -3,6 +3,9 @@
 ?>
 <main>
     <section>
+        <p class="back"><a href="friends.php">BACK</a></p>
+    </section>
+    <section>
         <form>
             <fieldset>
                 <p>
@@ -20,9 +23,9 @@
     <section>
         <form>
             <nav>
-                <a href="displayShelves.php"><button><img src="images/shelves_button.png"></button></a>
-                <a href="addFriends.php"><button><img src="images/profile_pic.png"></button></a>
-                <a href="profile.php"><button><img src="images/profile_pic.png"></button></a>
+                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
+                <a href="addFriends.php"><img src="images/add_button.jpg"></a>
+                <a href="profile.php"><img src="images/profile_pic.png"></a>
             </nav>
         </form>
     </section>

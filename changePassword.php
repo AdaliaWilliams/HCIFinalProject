@@ -4,6 +4,9 @@ include 'top.php';
 ?>
 <main>
     <section>
+        <p class="back"><a href="profile.php">BACK</a></p>
+    </section>
+    <section>
         <form>
             <fieldset>
                 <p>

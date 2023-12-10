@@ -4,7 +4,7 @@ include 'top.php';
 ?>
 <main>
     <section>
-        <h3><a href="profile.php">back</a></h3>
+        <p class="back"><a href="profile.php">BACK</a></p>
         <h1>Allergies</h1>
     </section>
     <section>
@@ -13,7 +13,9 @@ include 'top.php';
                 <td>Shellfish</td>
             </tr>
         </table>
-        <h2><a href="addAllergies.php"><img src="images/profile_pic.png"></a></h2>
+    </section>
+    <section class="allergies">
+        <h2><a href="addAllergies.php"><img src="images/add_button.jpg"></a></h2>
     </section>
     <section>
         <form>

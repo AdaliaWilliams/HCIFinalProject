@@ -4,12 +4,10 @@ include 'top.php';
 ?>
 <main>
     <section>
-    <h3><a href="profile.php">back</a></h3>
+        <p class="back"><a href="profile.php">BACK</a></p>
     <h1>Food Wasted</h1>
     </section>
     <section>
-        //Fix this parent
-        //Make the food show up in the table if it expires
         <table>
             <tr>
                 <th>Food Item</th>

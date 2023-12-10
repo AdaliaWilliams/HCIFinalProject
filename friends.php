@@ -2,8 +2,10 @@
 //webpage for displaying the user's friends
 include 'top.php';
 ?>
-<main>
-    //display friends 
+<main> 
+    <section>
+        <p class="back"><a href="profile.php">BACK</a></p>
+    </section>
     <section>
         <table>
             <tr>
@@ -15,9 +17,9 @@ include 'top.php';
     <section>
         <form>
             <nav>
-                <a href="displayShelves.php"><button><img src="images/shelves_button.png"></button></a>
-                <a href="addFriends.php"><button><img src="images/profile_pic.png"></button></a>
-                <a href="profile.php"><button><img src="images/profile_pic.png"></button></a>
+                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
+                <a href="addFriends.php"><img src="images/add_button.jpg"></a>
+                <a href="profile.php"><img src="images/profile_pic.png"></a>
             </nav>
         </form>
     </section>

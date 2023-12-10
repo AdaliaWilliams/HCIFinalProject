@@ -5,42 +5,23 @@ include 'top.php';
 <main>
     <section>
         <figure>
-            <img src="images/profile_pic.png">         
+            <img src="images/profile_pic.png"> 
+            <figcaption>@username</figcaption>        
         </figure>
     </section>
-    <section>
-        <form>
-            <fieldset>
-                <p>
-                    <label>Name</label>
-                    <input type="text">
-                </p>
-            </fieldset>
-            <fieldset>
-                <p>
-                    <input type="submit">
-                </p>
-            </fieldset>
-        </form>
-    </section>
-    <section>
-        //allergies
+    <section class="allergies">
         <h2><a href="allergies.php">Allergies</a></h2>
     </section>
-    <section>
-        //stats
+    <section class="foodwasted">
         <h2><a href="foodWasted.php">Food Wasted</a></h2>
     </section>
-    <section>
-        //change password
+    <section class="changepassword">
         <h2><a href="changePassword.php">Change Password</a></h2>
     </section>
-    <section>
-        //help
+    <section class="help">
         <h2><a href="help.php">Help</a></h2>
     </section>
-    <section>
-        //friends
+    <section class="friends">
         <h2><a href="friends.php">Friends</a></h2>
     </section>
     <section>

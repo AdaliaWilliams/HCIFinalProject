@@ -2,6 +2,9 @@
 //webpage for adding the allergies of user
 ?>
 <main>
+    <section>
+        <p class="back"><a href="allergies.php">BACK</a></p>
+    </section>
     <form>
         <fieldset>
             <p>
