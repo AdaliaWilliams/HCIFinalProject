@@ -1,31 +1,22 @@
 <?php
-//webpage for displaying the users frozen shelf
+//webpage for displaying the users protein shelf
 include 'top.php'
 ?>
 <section>
     <p class="back"><a href="sharedShelf.php">BACK</a></p>
 </section>
-<main class="my-frozen">
-    <h2 class="my-header">Frozen</h2>
+<main class="my-protein">
+    <h2 class="my-header">Protein</h2>
     <h3 class="item">Item</h3>
     <h3 class="date">Expiration Date</h3>
 
     <table>
         <tr>
-            <td>vanilla ice cream</td>
-            <td>1/12/24</td>
+            <td>hot dogs</td>
+            <td>1/3/24</td>
             <td class="del">delete</td>
         </tr>
-        <tr>
-            <td>strawberry sorbet</td>
-            <td>2/1/24</td>
-            <td class="del">delete</td>
-        </tr>
-        <tr>
-            <td>tropical fruit mix</td>
-            <td>3/15/24</td>
-            <td class="del">delete</td>
-        </tr>
+
     </table>
 
     <nav>

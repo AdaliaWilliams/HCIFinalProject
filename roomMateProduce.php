@@ -3,7 +3,7 @@
 include 'top.php'
 ?>
 <section>
-    <p class="back"><a href="sharedShelf.php">BACK</a></p>
+    <p class="back"><a href="roomMateShelf.php">BACK</a></p>
 </section>
 <main class="my-produce">
     <h2 class="my-header">Produce</h2>
@@ -12,21 +12,33 @@ include 'top.php'
 
     <table>
         <tr>
-            <td>Apples</td>
-            <td>12/20/23</td>
-            <td class="del">delete</td>
+            <td>spinach</td>
+            <td>12/10/23</td>
         </tr>
         <tr>
-            <td>lettuce</td>
+            <td>bell pepper x3</td>
+            <td>12/12/23</td>
+        </tr>
+        <tr>
+            <td>raspberries</td>
+            <td>12/17/23</td>
+        </tr>
+        <tr>
+            <td>pears</td>
+            <td>12/21/23</td>
+        </tr>
+        <tr>
+            <td>endives x3</td>
+            <td>12/21/23</td>
+        </tr>
+        <tr>
+            <td>fennel x2</td>
             <td>12/24/23</td>
-            <td class="del">delete</td>
         </tr>
     </table>
 
     <nav>
         <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
-
-        <a href="addFoodItem.php"><img src="images/add_button.jpg"></a>
 
         <a href="profile.php"><img src="images/profile_pic.png"></a>
     </nav>

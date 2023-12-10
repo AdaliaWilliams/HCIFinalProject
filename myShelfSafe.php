@@ -6,7 +6,7 @@ include 'top.php'
     <p class="back"><a href="myShelf.php">BACK</a></p>
 </section>
 <main class="my-shelf-safe">
-    <h2 class="my-header">Produce</h2>
+    <h2 class="my-header">Shelf Safe</h2>
     <h3 class="item">Item</h3>
     <h3 class="date">Expiration Date</h3>
 

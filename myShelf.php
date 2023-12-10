@@ -31,7 +31,7 @@ include "top.php";
 <nav>
     <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
 
-    <a href="addShelf.php"><img src="images/add_button.jpg"></a>
+    <a href="addCategory.php"><img src="images/add_button.jpg"></a>
 
     <a href="profile.php"><img src="images/profile_pic.png"></a>
 </nav>
