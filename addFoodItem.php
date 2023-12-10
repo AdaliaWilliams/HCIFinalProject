@@ -40,4 +40,5 @@ include 'top.php';
 </main>
 <!-- closing of html is in nav.php or must be included at the bottom of code-->
 <?php
+include 'nav.php';
 ?>
