@@ -4,7 +4,7 @@ include "top.php";
 ?>
 
 <section>
-    <p><a href="displayShelves.php">BACK</a></p>
+    <p class="back"><a href="displayShelves.php">BACK</a></p>
 </section>
 <main class="categories">
     <section class="produce">

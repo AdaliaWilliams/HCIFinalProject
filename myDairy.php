@@ -3,7 +3,7 @@
 include 'top.php'
 ?>
 <section>
-    <p><a href="myShelf.php">BACK</a></p>
+    <p class="back"><a href="myShelf.php">BACK</a></p>
 </section>
 <main class="my-dairy">
 <h2 class="my-header">Dairy</h2>
