@@ -13,6 +13,10 @@ body{
     margin-bottom: 40px;
 }
 
+h1{
+    text-align: center;
+}
+
 /*back button styling*/
 .back {
     background-color: lightgoldenrodyellow;
@@ -57,8 +61,12 @@ nav img {
     'nav ';
 }
 
-
-
+img{
+    max-width: 100%;
+    text-align: center;
+    padding: 1em;
+    transform:scale(1.25,1.25);
+}
 
 .shelf1{
     padding: 10px;
@@ -170,6 +178,74 @@ header h1{
     grid-area: shelf-safe;
     margin: 10px;
 }
+
+figcaption {
+    padding: 10px;
+    background-color: lightblue;
+    width: 80%;
+    text-align: center;
+    caption-side: bottom;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: username;
+    margin: 10px;
+}
+
+.allergies {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: allergies;
+    margin: 10px;
+}
+
+.foodwasted {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: foodwasted;
+    margin: 10px;
+}
+
+.changepassword {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: changepassword;
+    margin: 10px;
+}
+
+.help {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: help;
+    margin: 10px;
+}
+
+.friends {
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: friends;
+    margin: 10px;
+}
+
 /* category styling */
 
 a:link {
