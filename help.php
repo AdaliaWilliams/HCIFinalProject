@@ -29,13 +29,7 @@ include 'top.php';
         <p class="back"><a href="help.php">BACK</a></p>
         <p>Click this to go to the last page</p>
     </section>
-    <section>
-
-        <nav>
-            <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
-            <a href="profile.php"><img src="images/profile_pic.png"></a>
-        </nav>
-
-    </section>
 </main>
-</html>
+<?php
+include 'nav.php';
+?>

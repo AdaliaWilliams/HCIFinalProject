@@ -19,7 +19,7 @@ include 'top.php'
         </fieldset>
         <fieldset>
             <p>
-                <input type="submit" value="sign in">
+                <input type="submit" value="Sign In">
             </p>
         </fieldset>
     </form>
