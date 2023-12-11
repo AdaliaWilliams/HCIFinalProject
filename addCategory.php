@@ -3,7 +3,7 @@ include 'top.php';
 ?>
 <main>
 <h2>Add a Catagory</h2>
-<form>
+<form action="myShelf.php">
     <fieldset>
         <p>
             <label>Catagory Name</label>

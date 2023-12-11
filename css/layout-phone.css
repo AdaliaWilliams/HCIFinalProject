@@ -181,6 +181,23 @@ header h1{
     grid-area: shelf-safe;
     margin: 10px;
 }
+.profile{
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    'header'
+    'profile-photo'
+    'allergies'
+    'foodwasted'
+    'changepassword'
+    'to-help'
+    'friends'
+    'sign-out';
+}
+.profile-photo{
+    grid-area: profile-photo;
+    text-align: center;
+}
 
 figcaption {
     padding: 10px;
@@ -191,7 +208,7 @@ figcaption {
     border-width: 1px;
     border-radius: 5px;
     grid-area: username;
-    margin: 10px;
+    margin: auto;
 }
 
 .allergies {
@@ -234,7 +251,7 @@ figcaption {
     text-align: center;
     border-width: 1px;
     border-radius: 5px;
-    grid-area: help;
+    grid-area: to-help;
     margin: 10px;
 }
 
@@ -249,6 +266,16 @@ figcaption {
     margin: 10px;
 }
 
+.sign-out{
+    padding: 10px;
+    background-color: lightblue;
+    width: 90%;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    grid-area: sign-out;
+    margin: 10px;
+}
 /* category styling */
 
 a:link {
@@ -285,6 +312,7 @@ a:visited{
 }
 
 table{
+    border: 2px solid darkolivegreen;
     max-width: 80%;
     grid-area: my-table;
     margin: auto;
@@ -292,7 +320,9 @@ table{
 
 /* table styling  */
 td {
+    border: 2px solid darkolivegreen;
     text-transform: uppercase;
+    padding: 20px;
 }
 
 .del {
@@ -301,4 +331,35 @@ td {
 
 .soon {
     background-color: rgba(255, 0, 0, .5);
+}
+
+/* form styling */
+form{
+    max-width: 400px;
+    border-style: none;
+    background-color: lightblue;
+    color:  black;
+    padding: 5%;
+    margin: auto;
+    font-size: 105%;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+}
+label + input, label + textarea{
+
+    border-radius: 5px;
+    float: right;
+    padding: 2px;
+    scale: 101%;
+}
+
+input[type=submit]{
+    width: 80%;
+    text-align: center;
+    font-size: 2em;
+    background-color:  gray;
+    color: black;
+    border-color:  gray;
+    border-radius: 5px;
 }

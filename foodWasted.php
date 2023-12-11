@@ -5,17 +5,17 @@ include 'top.php';
 <main>
     <section>
         <p class="back"><a href="profile.php">BACK</a></p>
-    <h1>Food Wasted</h1>
+        <h1>Food Wasted</h1>
     </section>
     <section>
         <table>
             <tr>
                 <th>Food Item</th>
                 <th>Expiration Date</th>
-            </tr> 
-            <tr>      
+            </tr>
+            <tr>
                 <td>Grapes</td>
-                <td>09/22/23</td>              
+                <td>09/22/23</td>
             </tr>
             <tr>
                 <td>Rasberries</td>
@@ -28,12 +28,12 @@ include 'top.php';
         </table>
     </section>
     <section>
-        <form>
-            <nav>
-                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
-                <a href="profile.php"><img src="images/profile_pic.png"></a>
-            </nav>
-        </form>
+
+        <nav>
+            <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
+            <a href="profile.php"><img src="images/profile_pic.png"></a>
+        </nav>
+
     </section>
 </main>
 </html>

@@ -3,7 +3,7 @@ include 'top.php';
 ?>
 <main>
 <h2>Add a Shelf</h2>
-<form>
+<form action="displayShelves.php">
     <fieldset>
         <p>
             <h4>Shared Shelf?</h4>

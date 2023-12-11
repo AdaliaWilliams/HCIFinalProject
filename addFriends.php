@@ -16,9 +16,9 @@ include 'top.php';
             </p>
         </fieldset>
         <fieldset>
-                <p>
-                    <input type="submit" value="Add">
-                </p>
+            <p>
+                <input type="submit" value="Add">
+            </p>
         </fieldset>
     </form>
 

@@ -14,16 +14,15 @@ include 'top.php';
             </tr>
         </table>
     </section>
-    <section class="allergies">
-        <h2><a href="addAllergies.php"><img src="images/add_button.jpg"></a></h2>
-    </section>
+
     <section>
-        <form>
-            <nav>
-                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
-                <a href="profile.php"><img src="images/profile_pic.png"></a>
-            </nav>
-        </form>
+
+        <nav>
+            <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
+            <a href="addAllergies.php"><img src="images/add_button.jpg"></a>
+            <a href="profile.php"><img src="images/profile_pic.png"></a>
+        </nav>
+
     </section>
 </main>
 </html>
