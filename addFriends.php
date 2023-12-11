@@ -20,14 +20,5 @@
             </fieldset>
         </form>
     </section>
-    <section>
-        <form>
-            <nav>
-                <a href="displayShelves.php"><img src="images/shelves_button.png"></a>
-                <a href="addFriends.php"><img src="images/add_button.jpg"></a>
-                <a href="profile.php"><img src="images/profile_pic.png"></a>
-            </nav>
-        </form>
-    </section>
 </main>
 </html>
